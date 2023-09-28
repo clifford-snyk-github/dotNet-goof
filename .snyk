@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-DOTNET-NEWTONSOFTJSON-2774678:
+    - '*':
+        reason: Module only used in test projects, not deployed with the code.
+        created: 2023-07-17T16:00:00.000Z
+  SNYK-DOTNET-SYSTEMMANAGEMENTAUTOMATION-451667:
+    - '*':
+        reason: Module only used in test projects, not deployed with the code.
+        created: 2023-07-17T16:00:00.000Z
+  SNYK-DOTNET-SYSTEMMANAGEMENTAUTOMATION-536079:
+    - '*':
+        reason: Module only used in test projects, not deployed with the code.
+        created: 2023-07-17T16:00:00.000Z
+  SNYK-DOTNET-SYSTEMNETHTTP-60045:
+    - '*':
+        reason: Module only used in test projects, not deployed with the code.
+        created: 2023-07-17T16:00:00.000Z
+  SNYK-DOTNET-SYSTEMNETHTTP-60046:
+    - '*':
+        reason: Module only used in test projects, not deployed with the code.
+        created: 2023-07-17T16:00:00.000Z
+  SNYK-DOTNET-SYSTEMNETHTTP-72439:
+    - '*':
+        reason: Module only used in test projects, not deployed with the code.
+        created: 2023-07-17T16:00:00.000Z
+  SNYK-DOTNET-SYSTEMTEXTREGULAREXPRESSIONS-174708:
+    - '*':
+        reason: Module only used in test projects, not deployed with the code.
+        created: 2023-07-17T16:00:00.000Z
+  SNYK-DOTNET-SYSTEMNETHTTP-60047:
+    - '*':
+        reason: Module only used in test projects, not deployed with the code.
+        created: 2023-07-17T16:00:00.000Z
+  SNYK-DOTNET-SYSTEMNETHTTP-60048:
+    - '*':
+        reason: Module only used in test projects, not deployed with the code.
+        created: 2023-07-17T16:00:00.000Z
